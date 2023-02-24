@@ -1,0 +1,38 @@
+unit FrelCliente;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, QRCtrls, StdCtrls, QuickRpt, DB, DBTables, ExtCtrls;
+
+type
+  TForm2 = class(TForm)
+    QuickRep1: TQuickRep;
+    Query1: TQuery;
+    PageHeaderBand1: TQRBand;
+    ColumnHeaderBand1: TQRBand;
+    DetailBand1: TQRBand;
+    QRLabel1: TQRLabel;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    QRDBText1: TQRDBText;
+    QRDBText2: TQRDBText;
+    QRDBText3: TQRDBText;
+    QRDBText4: TQRDBText;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.dfm}
+
+end.
